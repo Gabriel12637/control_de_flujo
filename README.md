@@ -15,4 +15,8 @@ if (op == 3)
 setField(pswd,2,5); 
 else 
 msgBox("operación desconocida:); 
-if (prompt("entre Nombre") == "") errMsg("Se debe especificar el nombre");
+if (prompt("entre Nombre") == "") errMsg("Se debe especificar el nombre"); 
+
+
+
+
