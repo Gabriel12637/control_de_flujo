@@ -53,8 +53,51 @@ print(f"la cantidad de letras a que es (contador) ")
 # ojo: tiene que pedir al usuario
 
 
-texto = input(" ingresa un texo:")
-indice_comas=[i for i in
-range(len(texto))
+texto:str=input(" ingresa un texo:")
+cantidad de comas = 0
+indice_comas=[]
+for indice,caracter in enumerate(texto)
+ if caracter ==",":
+    cantidad_commas+=1
+    indice_comas.append(indice)
 
-for indice,caracter
+print("cantidad de comas:",cantidad_comas)
+print("indice de las comas:",indice_comas)
+
+# escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años 
+# que ha cumplido (1 hasta su edad)
+
+edad=int(input("ingresa tu edad: "))
+for i in range(1 , edad+1):
+    print("ha cumplido",i,"años")
+
+# crea un programa que me pida el nombre de tres personas y guarde
+# variable global la ultima letra de sus nombres
+# mostrar por pantalla la variable global con los tres ultimos letras del nombre de cada persona
+  
+for n in range(3):
+    nombre:str=input("escribe tu nombre: ")
+   #ultima_letra+=nombre[-1]
+   last_letter:str=init=nombre[-1]
+ultima_letra+=last_letter
+#ultima_letra-ultima_letra+last_latter
+print(ultima_letra)
+
+
+
+
+
+
+vocales = ['A','E','I','O','U']
+for i in range(len(vocales)):
+        linea = ''
+    for i in range(i+1):
+     linea+=
+     vocales[1]. lower()
+     print(linea.capitalize())
+
+
+
+
+
+
