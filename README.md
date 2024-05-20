@@ -17,6 +17,11 @@ else
 msgBox("operación desconocida:); 
 if (prompt("entre Nombre") == "") errMsg("Se debe especificar el nombre"); 
 
+### white 
+es un mecanismo que usa python para repetir instrucciones, la 
+semantica de esta sentencia es: mientras se cumpla la condicios
+has algo 
+
 
 
 

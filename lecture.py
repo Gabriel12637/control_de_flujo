@@ -97,7 +97,34 @@ for i in range(len(vocales)):
      print(linea.capitalize())
 
 
+CONTADOR=0
+white contador<=5:
+print(contador)
+contador+=1
+print(f"valor final(contador)")
+ 
+nombre="jose"
+nombre.upper() #convierte al texto en mayusculas
 
+apellidos="alvarez"
+print(apellido.lower() # convierte el texto a minusculas
+segundo_nombre="luis"
+print(segundo_nombre.capitalize()) # convierte la primera letra mayuscula 
+
+# crear un programa que piada la cantidad de notas que se debe registrar
+# luego pedira las notas e imprimira el promedio 
+
+
+num_notas = int(input("Ingrese la cantidad de notas a registrar: "))
+suma_notas = 0
+
+for i in range(num_notas):
+    nota = float(input(f"Ingrese la nota {i + 1}: "))
+    suma_notas += nota
+
+promedio = suma_notas / num_notas
+
+print("\nEl promedio de las notas ingresadas es: ", promedio)
 
 
 

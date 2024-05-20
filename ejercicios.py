@@ -40,3 +40,16 @@ else:
 
 
 
+ #crear un programa  que me muestre la tabla de multiplicar de 1 hasta 5
+ 
+ for i in range (1,6):
+    print(f"tabla de multiplicar {1} : ")
+    for j range  (1,11):
+resultado = i * j
+print ( f "{i} x {j}" = {resultado}")
+print ( )         
+
+ 
+
+
+
